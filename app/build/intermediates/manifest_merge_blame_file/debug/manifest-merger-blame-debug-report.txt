@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.etkilit.android.androidsocketclient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="14"
+8-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:7:5-9:41
+9        android:targetSdkVersion="27" />
+9-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:11:5-67
+11-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:12:5-79
+12-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:12:22-76
+13
+14    <!-- To auto-complete the email text field in the login form with the user's emails -->
+15    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+15-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:15:5-71
+15-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:15:22-68
+16    <uses-permission android:name="android.permission.READ_PROFILE" />
+16-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:16:5-71
+16-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:16:22-68
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:17:5-72
+17-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:17:22-69
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:18:5-81
+18-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:18:22-78
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:19:5-75
+19-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:19:22-72
+20    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+20-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:20:5-72
+20-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:20:22-69
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:21:5-65
+21-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:21:22-62
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:22:5-80
+22-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:22:22-77
+23
+24    <application
+24-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:24:5-40:19
+25        android:allowBackup="true"
+25-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:25:9-35
+26        android:debuggable="true"
+27        android:icon="@drawable/ic_launcher"
+27-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:26:9-45
+28        android:label="@string/app_name"
+28-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:27:9-41
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:28:9-40
+31        <activity
+31-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:29:9-37:20
+32            android:name="com.etkilit.QrScan"
+32-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:30:13-46
+33            android:label="@string/app_name" >
+33-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:31:13-45
+34            <intent-filter>
+34-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:32:13-36:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:33:17-69
+35-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:33:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:35:17-77
+37-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:35:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.etkilit.LisansActivity" />
+40-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:38:9-63
+40-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:38:19-60
+41        <activity android:name="com.etkilit.SunucuActivity" />
+41-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:39:9-72
+41-->C:\Users\Zekeriya\AndroidStudioProjects\EtKilit\app\src\main\AndroidManifest.xml:39:19-60
+42    </application>
+43
+44</manifest>

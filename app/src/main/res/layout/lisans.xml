@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefon Numaranız" />
+
+    <EditText
+        android:id="@+id/txtTelno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:phoneNumber="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okul Kodu" />
+
+    <EditText
+        android:id="@+id/txtOkulKodu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnKaydol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydol" />
+
+    <TextView
+        android:id="@+id/txtLisansSuresi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSunucuAyarla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunucu Ayarla" />
+
+</LinearLayout>

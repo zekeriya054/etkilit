@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnOturumAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oturum Aç" />
+
+    <Button
+        android:id="@+id/btnOturumuKilitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oturumu Kilitle" />
+
+    <Button
+        android:id="@+id/btnOturumuKapat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oturum Kapat" />
+
+    <Button
+        android:id="@+id/btnBilKapat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bilgisayarı Kapat" />
+
+</LinearLayout>
