@@ -1685,9 +1685,10 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
     public static final int layout_optimizationLevel=0x7f0200ca;
@@ -3003,97 +3004,98 @@ public final class R {
     public static final int forever=0x7f070047;
     public static final int giris=0x7f070048;
     public static final int gone=0x7f070049;
-    public static final int home=0x7f07004a;
-    public static final int homeAsUp=0x7f07004b;
-    public static final int icon=0x7f07004c;
-    public static final int icon_group=0x7f07004d;
-    public static final int ifRoom=0x7f07004e;
-    public static final int image=0x7f07004f;
-    public static final int indir=0x7f070050;
-    public static final int info=0x7f070051;
-    public static final int invisible=0x7f070052;
-    public static final int italic=0x7f070053;
-    public static final int left=0x7f070054;
-    public static final int line1=0x7f070055;
-    public static final int line3=0x7f070056;
-    public static final int listMode=0x7f070057;
-    public static final int list_item=0x7f070058;
-    public static final int m_anahtar=0x7f070059;
-    public static final int m_sunucu=0x7f07005a;
-    public static final int media_actions=0x7f07005b;
-    public static final int message=0x7f07005c;
-    public static final int middle=0x7f07005d;
-    public static final int multiply=0x7f07005e;
-    public static final int never=0x7f07005f;
-    public static final int none=0x7f070060;
-    public static final int normal=0x7f070061;
-    public static final int notification_background=0x7f070062;
-    public static final int notification_main_column=0x7f070063;
-    public static final int notification_main_column_container=0x7f070064;
-    public static final int packed=0x7f070065;
-    public static final int parent=0x7f070066;
-    public static final int parentPanel=0x7f070067;
-    public static final int percent=0x7f070068;
-    public static final int progress_circular=0x7f070069;
-    public static final int progress_horizontal=0x7f07006a;
-    public static final int radio=0x7f07006b;
-    public static final int right=0x7f07006c;
-    public static final int right_icon=0x7f07006d;
-    public static final int right_side=0x7f07006e;
-    public static final int screen=0x7f07006f;
-    public static final int scrollIndicatorDown=0x7f070070;
-    public static final int scrollIndicatorUp=0x7f070071;
-    public static final int scrollView=0x7f070072;
-    public static final int search_badge=0x7f070073;
-    public static final int search_bar=0x7f070074;
-    public static final int search_button=0x7f070075;
-    public static final int search_close_btn=0x7f070076;
-    public static final int search_edit_frame=0x7f070077;
-    public static final int search_go_btn=0x7f070078;
-    public static final int search_mag_icon=0x7f070079;
-    public static final int search_plate=0x7f07007a;
-    public static final int search_src_text=0x7f07007b;
-    public static final int search_voice_btn=0x7f07007c;
-    public static final int select_dialog_listview=0x7f07007d;
-    public static final int shortcut=0x7f07007e;
-    public static final int showCustom=0x7f07007f;
-    public static final int showHome=0x7f070080;
-    public static final int showTitle=0x7f070081;
-    public static final int spacer=0x7f070082;
-    public static final int split_action_bar=0x7f070083;
-    public static final int spread=0x7f070084;
-    public static final int spread_inside=0x7f070085;
-    public static final int src_atop=0x7f070086;
-    public static final int src_in=0x7f070087;
-    public static final int src_over=0x7f070088;
-    public static final int standard=0x7f070089;
-    public static final int start=0x7f07008a;
-    public static final int status_bar_latest_event_content=0x7f07008b;
-    public static final int submenuarrow=0x7f07008c;
-    public static final int submit_area=0x7f07008d;
-    public static final int tabMode=0x7f07008e;
-    public static final int tag_transition_group=0x7f07008f;
-    public static final int text=0x7f070090;
-    public static final int text2=0x7f070091;
-    public static final int textSpacerNoButtons=0x7f070092;
-    public static final int textSpacerNoTitle=0x7f070093;
-    public static final int textView=0x7f070094;
-    public static final int time=0x7f070095;
-    public static final int title=0x7f070096;
-    public static final int titleDividerNoCustom=0x7f070097;
-    public static final int title_template=0x7f070098;
-    public static final int top=0x7f070099;
-    public static final int topPanel=0x7f07009a;
-    public static final int txtLisansSuresi=0x7f07009b;
-    public static final int txtOkulKodu=0x7f07009c;
-    public static final int txtTelno=0x7f07009d;
-    public static final int txtsSunucuIP=0x7f07009e;
-    public static final int uniform=0x7f07009f;
-    public static final int up=0x7f0700a0;
-    public static final int useLogo=0x7f0700a1;
-    public static final int withText=0x7f0700a2;
-    public static final int wrap=0x7f0700a3;
-    public static final int wrap_content=0x7f0700a4;
+    public static final int groups=0x7f07004a;
+    public static final int home=0x7f07004b;
+    public static final int homeAsUp=0x7f07004c;
+    public static final int icon=0x7f07004d;
+    public static final int icon_group=0x7f07004e;
+    public static final int ifRoom=0x7f07004f;
+    public static final int image=0x7f070050;
+    public static final int indir=0x7f070051;
+    public static final int info=0x7f070052;
+    public static final int invisible=0x7f070053;
+    public static final int italic=0x7f070054;
+    public static final int left=0x7f070055;
+    public static final int line1=0x7f070056;
+    public static final int line3=0x7f070057;
+    public static final int listMode=0x7f070058;
+    public static final int list_item=0x7f070059;
+    public static final int m_anahtar=0x7f07005a;
+    public static final int m_sunucu=0x7f07005b;
+    public static final int media_actions=0x7f07005c;
+    public static final int message=0x7f07005d;
+    public static final int middle=0x7f07005e;
+    public static final int multiply=0x7f07005f;
+    public static final int never=0x7f070060;
+    public static final int none=0x7f070061;
+    public static final int normal=0x7f070062;
+    public static final int notification_background=0x7f070063;
+    public static final int notification_main_column=0x7f070064;
+    public static final int notification_main_column_container=0x7f070065;
+    public static final int packed=0x7f070066;
+    public static final int parent=0x7f070067;
+    public static final int parentPanel=0x7f070068;
+    public static final int percent=0x7f070069;
+    public static final int progress_circular=0x7f07006a;
+    public static final int progress_horizontal=0x7f07006b;
+    public static final int radio=0x7f07006c;
+    public static final int right=0x7f07006d;
+    public static final int right_icon=0x7f07006e;
+    public static final int right_side=0x7f07006f;
+    public static final int screen=0x7f070070;
+    public static final int scrollIndicatorDown=0x7f070071;
+    public static final int scrollIndicatorUp=0x7f070072;
+    public static final int scrollView=0x7f070073;
+    public static final int search_badge=0x7f070074;
+    public static final int search_bar=0x7f070075;
+    public static final int search_button=0x7f070076;
+    public static final int search_close_btn=0x7f070077;
+    public static final int search_edit_frame=0x7f070078;
+    public static final int search_go_btn=0x7f070079;
+    public static final int search_mag_icon=0x7f07007a;
+    public static final int search_plate=0x7f07007b;
+    public static final int search_src_text=0x7f07007c;
+    public static final int search_voice_btn=0x7f07007d;
+    public static final int select_dialog_listview=0x7f07007e;
+    public static final int shortcut=0x7f07007f;
+    public static final int showCustom=0x7f070080;
+    public static final int showHome=0x7f070081;
+    public static final int showTitle=0x7f070082;
+    public static final int spacer=0x7f070083;
+    public static final int split_action_bar=0x7f070084;
+    public static final int spread=0x7f070085;
+    public static final int spread_inside=0x7f070086;
+    public static final int src_atop=0x7f070087;
+    public static final int src_in=0x7f070088;
+    public static final int src_over=0x7f070089;
+    public static final int standard=0x7f07008a;
+    public static final int start=0x7f07008b;
+    public static final int status_bar_latest_event_content=0x7f07008c;
+    public static final int submenuarrow=0x7f07008d;
+    public static final int submit_area=0x7f07008e;
+    public static final int tabMode=0x7f07008f;
+    public static final int tag_transition_group=0x7f070090;
+    public static final int text=0x7f070091;
+    public static final int text2=0x7f070092;
+    public static final int textSpacerNoButtons=0x7f070093;
+    public static final int textSpacerNoTitle=0x7f070094;
+    public static final int textView=0x7f070095;
+    public static final int time=0x7f070096;
+    public static final int title=0x7f070097;
+    public static final int titleDividerNoCustom=0x7f070098;
+    public static final int title_template=0x7f070099;
+    public static final int top=0x7f07009a;
+    public static final int topPanel=0x7f07009b;
+    public static final int txtLisansSuresi=0x7f07009c;
+    public static final int txtOkulKodu=0x7f07009d;
+    public static final int txtTelno=0x7f07009e;
+    public static final int txtsSunucuIP=0x7f07009f;
+    public static final int uniform=0x7f0700a0;
+    public static final int up=0x7f0700a1;
+    public static final int useLogo=0x7f0700a2;
+    public static final int withText=0x7f0700a3;
+    public static final int wrap=0x7f0700a4;
+    public static final int wrap_content=0x7f0700a5;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3565,35 +3567,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.etkilit.android.androidsocketclient:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.etkilit.android.androidsocketclient:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.etkilit.android.androidsocketclient:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.etkilit.android.androidsocketclient:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.etkilit.android.androidsocketclient:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.etkilit.android.androidsocketclient:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.etkilit.android.androidsocketclient:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.etkilit.android.androidsocketclient:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.etkilit.android.androidsocketclient:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.etkilit.android.androidsocketclient:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.etkilit.android.androidsocketclient:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.etkilit.android.androidsocketclient:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.etkilit.android.androidsocketclient:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.etkilit.android.androidsocketclient:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.etkilit.android.androidsocketclient:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.etkilit.android.androidsocketclient:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.etkilit.android.androidsocketclient:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.etkilit.android.androidsocketclient:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.etkilit.android.androidsocketclient:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.etkilit.android.androidsocketclient:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.etkilit.android.androidsocketclient:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.etkilit.android.androidsocketclient:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.etkilit.android.androidsocketclient:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.etkilit.android.androidsocketclient:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.etkilit.android.androidsocketclient:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.etkilit.android.androidsocketclient:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.etkilit.android.androidsocketclient:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.etkilit.android.androidsocketclient:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.etkilit.android.androidsocketclient:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.etkilit:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.etkilit:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.etkilit:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.etkilit:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.etkilit:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.etkilit:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.etkilit:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.etkilit:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.etkilit:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.etkilit:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.etkilit:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.etkilit:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.etkilit:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.etkilit:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.etkilit:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.etkilit:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.etkilit:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.etkilit:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.etkilit:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.etkilit:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.etkilit:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.etkilit:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.etkilit:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.etkilit:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.etkilit:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.etkilit:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.etkilit:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.etkilit:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.etkilit:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -3636,7 +3638,7 @@ public final class R {
       0x7f02012e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3644,11 +3646,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:background
+     * @attr name com.etkilit:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3659,11 +3661,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:backgroundSplit
+     * @attr name com.etkilit:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3674,11 +3676,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:backgroundStacked
+     * @attr name com.etkilit:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3687,11 +3689,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetEnd
+     * @attr name com.etkilit:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3700,11 +3702,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetEndWithActions
+     * @attr name com.etkilit:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3713,11 +3715,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetLeft
+     * @attr name com.etkilit:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3726,11 +3728,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetRight
+     * @attr name com.etkilit:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3739,11 +3741,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetStart
+     * @attr name com.etkilit:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3752,11 +3754,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetStartWithNavigation
+     * @attr name com.etkilit:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3764,11 +3766,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:customNavigationLayout
+     * @attr name com.etkilit:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3786,11 +3788,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:displayOptions
+     * @attr name com.etkilit:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3798,11 +3800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:divider
+     * @attr name com.etkilit:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3811,11 +3813,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:elevation
+     * @attr name com.etkilit:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3824,21 +3826,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:height
+     * @attr name com.etkilit:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:hideOnContentScroll
+     * @attr name com.etkilit:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3846,11 +3848,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:homeAsUpIndicator
+     * @attr name com.etkilit:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3858,11 +3860,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:homeLayout
+     * @attr name com.etkilit:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3870,11 +3872,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:icon
+     * @attr name com.etkilit:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3882,11 +3884,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:indeterminateProgressStyle
+     * @attr name com.etkilit:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3895,11 +3897,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:itemPadding
+     * @attr name com.etkilit:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3907,11 +3909,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:logo
+     * @attr name com.etkilit:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -3925,11 +3927,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:navigationMode
+     * @attr name com.etkilit:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3937,11 +3939,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:popupTheme
+     * @attr name com.etkilit:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3950,11 +3952,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:progressBarPadding
+     * @attr name com.etkilit:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3962,21 +3964,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:progressBarStyle
+     * @attr name com.etkilit:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitle
+     * @attr name com.etkilit:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -3984,21 +3986,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitleTextStyle
+     * @attr name com.etkilit:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:title
+     * @attr name com.etkilit:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4006,7 +4008,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleTextStyle
+     * @attr name com.etkilit:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4088,12 +4090,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.etkilit.android.androidsocketclient:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.etkilit.android.androidsocketclient:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.etkilit.android.androidsocketclient:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.etkilit.android.androidsocketclient:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.etkilit.android.androidsocketclient:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.etkilit.android.androidsocketclient:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.etkilit:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.etkilit:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.etkilit:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.etkilit:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.etkilit:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.etkilit:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4107,7 +4109,7 @@ public final class R {
       0x7f02010a, 0x7f02012e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4115,11 +4117,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:background
+     * @attr name com.etkilit:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4130,11 +4132,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:backgroundSplit
+     * @attr name com.etkilit:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4142,11 +4144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:closeItemLayout
+     * @attr name com.etkilit:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4155,11 +4157,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:height
+     * @attr name com.etkilit:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4167,11 +4169,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitleTextStyle
+     * @attr name com.etkilit:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4179,7 +4181,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleTextStyle
+     * @attr name com.etkilit:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4189,8 +4191,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.etkilit.android.androidsocketclient:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.etkilit.android.androidsocketclient:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.etkilit:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.etkilit:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -4199,7 +4201,7 @@ public final class R {
       0x7f020077, 0x7f02008e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4207,17 +4209,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:expandActivityOverflowButtonDrawable
+     * @attr name com.etkilit:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:initialActivityCount
+     * @attr name com.etkilit:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -4228,13 +4230,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.etkilit.android.androidsocketclient:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.etkilit.android.androidsocketclient:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.etkilit.android.androidsocketclient:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.etkilit.android.androidsocketclient:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.etkilit.android.androidsocketclient:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.etkilit.android.androidsocketclient:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.etkilit.android.androidsocketclient:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.etkilit:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.etkilit:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.etkilit:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.etkilit:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.etkilit:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.etkilit:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.etkilit:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -4262,7 +4264,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4271,11 +4273,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonIconDimen
+     * @attr name com.etkilit:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4283,11 +4285,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonPanelSideLayout
+     * @attr name com.etkilit:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4295,11 +4297,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listItemLayout
+     * @attr name com.etkilit:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4307,11 +4309,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listLayout
+     * @attr name com.etkilit:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4319,21 +4321,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:multiChoiceItemLayout
+     * @attr name com.etkilit:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:showTitle
+     * @attr name com.etkilit:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4341,7 +4343,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:singleChoiceItemLayout
+     * @attr name com.etkilit:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -4352,9 +4354,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.etkilit.android.androidsocketclient:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.etkilit.android.androidsocketclient:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.etkilit.android.androidsocketclient:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.etkilit:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.etkilit:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.etkilit:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -4380,7 +4382,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4388,22 +4390,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:srcCompat
+     * @attr name com.etkilit:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:tint
+     * @attr name com.etkilit:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4420,7 +4422,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:tintMode
+     * @attr name com.etkilit:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -4431,9 +4433,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.etkilit.android.androidsocketclient:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.etkilit.android.androidsocketclient:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.etkilit.android.androidsocketclient:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.etkilit:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.etkilit:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.etkilit:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -4456,7 +4458,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4464,22 +4466,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:tickMark
+     * @attr name com.etkilit:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:tickMarkTint
+     * @attr name com.etkilit:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4496,7 +4498,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:tickMarkTintMode
+     * @attr name com.etkilit:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -4636,13 +4638,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.etkilit.android.androidsocketclient:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.etkilit.android.androidsocketclient:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.etkilit.android.androidsocketclient:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.etkilit.android.androidsocketclient:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.etkilit.android.androidsocketclient:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.etkilit.android.androidsocketclient:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.etkilit.android.androidsocketclient:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.etkilit:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.etkilit:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.etkilit:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.etkilit:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.etkilit:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.etkilit:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.etkilit:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -4670,7 +4672,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4679,11 +4681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoSizeMaxTextSize
+     * @attr name com.etkilit:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4692,11 +4694,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoSizeMinTextSize
+     * @attr name com.etkilit:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4704,11 +4706,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoSizePresetSizes
+     * @attr name com.etkilit:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4717,11 +4719,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoSizeStepGranularity
+     * @attr name com.etkilit:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4734,21 +4736,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoSizeTextType
+     * @attr name com.etkilit:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontFamily
+     * @attr name com.etkilit:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4758,7 +4760,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAllCaps
+     * @attr name com.etkilit:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -4770,124 +4772,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.etkilit.android.androidsocketclient:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.etkilit.android.androidsocketclient:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.etkilit.android.androidsocketclient:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.etkilit.android.androidsocketclient:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.etkilit.android.androidsocketclient:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.etkilit.android.androidsocketclient:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.etkilit.android.androidsocketclient:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.etkilit.android.androidsocketclient:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.etkilit.android.androidsocketclient:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.etkilit.android.androidsocketclient:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.etkilit.android.androidsocketclient:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.etkilit.android.androidsocketclient:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.etkilit.android.androidsocketclient:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.etkilit.android.androidsocketclient:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.etkilit.android.androidsocketclient:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.etkilit.android.androidsocketclient:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.etkilit.android.androidsocketclient:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.etkilit.android.androidsocketclient:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.etkilit.android.androidsocketclient:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.etkilit.android.androidsocketclient:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.etkilit.android.androidsocketclient:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.etkilit.android.androidsocketclient:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.etkilit.android.androidsocketclient:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.etkilit.android.androidsocketclient:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.etkilit.android.androidsocketclient:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.etkilit.android.androidsocketclient:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.etkilit.android.androidsocketclient:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.etkilit.android.androidsocketclient:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.etkilit.android.androidsocketclient:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.etkilit.android.androidsocketclient:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.etkilit.android.androidsocketclient:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.etkilit.android.androidsocketclient:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.etkilit.android.androidsocketclient:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.etkilit.android.androidsocketclient:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.etkilit.android.androidsocketclient:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.etkilit.android.androidsocketclient:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.etkilit.android.androidsocketclient:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.etkilit.android.androidsocketclient:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.etkilit.android.androidsocketclient:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.etkilit.android.androidsocketclient:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.etkilit.android.androidsocketclient:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.etkilit.android.androidsocketclient:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.etkilit.android.androidsocketclient:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.etkilit.android.androidsocketclient:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.etkilit.android.androidsocketclient:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.etkilit.android.androidsocketclient:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.etkilit.android.androidsocketclient:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.etkilit.android.androidsocketclient:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.etkilit.android.androidsocketclient:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.etkilit.android.androidsocketclient:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.etkilit.android.androidsocketclient:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.etkilit.android.androidsocketclient:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.etkilit.android.androidsocketclient:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.etkilit.android.androidsocketclient:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.etkilit.android.androidsocketclient:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.etkilit.android.androidsocketclient:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.etkilit.android.androidsocketclient:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.etkilit.android.androidsocketclient:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.etkilit.android.androidsocketclient:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.etkilit.android.androidsocketclient:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.etkilit.android.androidsocketclient:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.etkilit.android.androidsocketclient:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.etkilit.android.androidsocketclient:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.etkilit.android.androidsocketclient:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.etkilit.android.androidsocketclient:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.etkilit.android.androidsocketclient:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.etkilit.android.androidsocketclient:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.etkilit.android.androidsocketclient:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.etkilit.android.androidsocketclient:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.etkilit.android.androidsocketclient:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.etkilit.android.androidsocketclient:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.etkilit.android.androidsocketclient:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.etkilit.android.androidsocketclient:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.etkilit.android.androidsocketclient:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.etkilit.android.androidsocketclient:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.etkilit.android.androidsocketclient:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.etkilit.android.androidsocketclient:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.etkilit.android.androidsocketclient:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.etkilit.android.androidsocketclient:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.etkilit.android.androidsocketclient:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.etkilit.android.androidsocketclient:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.etkilit.android.androidsocketclient:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.etkilit.android.androidsocketclient:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.etkilit.android.androidsocketclient:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.etkilit.android.androidsocketclient:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.etkilit.android.androidsocketclient:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.etkilit.android.androidsocketclient:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.etkilit.android.androidsocketclient:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.etkilit.android.androidsocketclient:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.etkilit.android.androidsocketclient:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.etkilit.android.androidsocketclient:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.etkilit.android.androidsocketclient:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.etkilit.android.androidsocketclient:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.etkilit.android.androidsocketclient:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.etkilit.android.androidsocketclient:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.etkilit.android.androidsocketclient:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.etkilit.android.androidsocketclient:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.etkilit.android.androidsocketclient:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.etkilit.android.androidsocketclient:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.etkilit.android.androidsocketclient:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.etkilit.android.androidsocketclient:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.etkilit.android.androidsocketclient:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.etkilit.android.androidsocketclient:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.etkilit.android.androidsocketclient:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.etkilit.android.androidsocketclient:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.etkilit.android.androidsocketclient:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.etkilit.android.androidsocketclient:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.etkilit.android.androidsocketclient:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.etkilit.android.androidsocketclient:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.etkilit.android.androidsocketclient:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.etkilit.android.androidsocketclient:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.etkilit.android.androidsocketclient:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.etkilit.android.androidsocketclient:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.etkilit.android.androidsocketclient:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.etkilit.android.androidsocketclient:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.etkilit.android.androidsocketclient:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.etkilit.android.androidsocketclient:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.etkilit.android.androidsocketclient:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.etkilit:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.etkilit:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.etkilit:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.etkilit:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.etkilit:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.etkilit:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.etkilit:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.etkilit:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.etkilit:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.etkilit:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.etkilit:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.etkilit:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.etkilit:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.etkilit:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.etkilit:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.etkilit:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.etkilit:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.etkilit:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.etkilit:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.etkilit:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.etkilit:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.etkilit:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.etkilit:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.etkilit:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.etkilit:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.etkilit:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.etkilit:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.etkilit:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.etkilit:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.etkilit:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.etkilit:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.etkilit:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.etkilit:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.etkilit:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.etkilit:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.etkilit:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.etkilit:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.etkilit:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.etkilit:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.etkilit:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.etkilit:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.etkilit:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.etkilit:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.etkilit:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.etkilit:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.etkilit:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.etkilit:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.etkilit:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.etkilit:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.etkilit:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.etkilit:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.etkilit:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.etkilit:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.etkilit:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.etkilit:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.etkilit:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.etkilit:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.etkilit:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.etkilit:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.etkilit:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.etkilit:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.etkilit:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.etkilit:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.etkilit:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.etkilit:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.etkilit:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.etkilit:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.etkilit:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.etkilit:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.etkilit:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.etkilit:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.etkilit:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.etkilit:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.etkilit:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.etkilit:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.etkilit:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.etkilit:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.etkilit:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.etkilit:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.etkilit:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.etkilit:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.etkilit:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.etkilit:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.etkilit:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.etkilit:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.etkilit:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.etkilit:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.etkilit:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.etkilit:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.etkilit:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.etkilit:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.etkilit:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.etkilit:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.etkilit:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.etkilit:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.etkilit:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.etkilit:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.etkilit:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.etkilit:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.etkilit:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.etkilit:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.etkilit:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.etkilit:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.etkilit:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.etkilit:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.etkilit:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.etkilit:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.etkilit:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.etkilit:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.etkilit:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.etkilit:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.etkilit:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.etkilit:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.etkilit:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.etkilit:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.etkilit:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.etkilit:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.etkilit:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5065,7 +5067,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5073,11 +5075,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarDivider
+     * @attr name com.etkilit:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5085,11 +5087,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarItemBackground
+     * @attr name com.etkilit:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5097,11 +5099,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarPopupTheme
+     * @attr name com.etkilit:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5118,11 +5120,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarSize
+     * @attr name com.etkilit:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5130,11 +5132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarSplitStyle
+     * @attr name com.etkilit:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5142,11 +5144,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarStyle
+     * @attr name com.etkilit:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5154,11 +5156,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarTabBarStyle
+     * @attr name com.etkilit:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5166,11 +5168,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarTabStyle
+     * @attr name com.etkilit:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5178,11 +5180,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarTabTextStyle
+     * @attr name com.etkilit:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5190,11 +5192,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarTheme
+     * @attr name com.etkilit:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5202,11 +5204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionBarWidgetTheme
+     * @attr name com.etkilit:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5214,11 +5216,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionButtonStyle
+     * @attr name com.etkilit:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5226,11 +5228,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionDropDownStyle
+     * @attr name com.etkilit:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5238,11 +5240,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionMenuTextAppearance
+     * @attr name com.etkilit:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5253,11 +5255,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionMenuTextColor
+     * @attr name com.etkilit:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5265,11 +5267,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeBackground
+     * @attr name com.etkilit:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5277,11 +5279,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeCloseButtonStyle
+     * @attr name com.etkilit:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5289,11 +5291,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeCloseDrawable
+     * @attr name com.etkilit:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5301,11 +5303,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeCopyDrawable
+     * @attr name com.etkilit:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5313,11 +5315,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeCutDrawable
+     * @attr name com.etkilit:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5325,11 +5327,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeFindDrawable
+     * @attr name com.etkilit:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5337,11 +5339,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModePasteDrawable
+     * @attr name com.etkilit:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5349,11 +5351,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModePopupWindowStyle
+     * @attr name com.etkilit:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5361,11 +5363,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeSelectAllDrawable
+     * @attr name com.etkilit:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5373,11 +5375,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeShareDrawable
+     * @attr name com.etkilit:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5385,11 +5387,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeSplitBackground
+     * @attr name com.etkilit:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5397,11 +5399,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeStyle
+     * @attr name com.etkilit:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5409,11 +5411,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionModeWebSearchDrawable
+     * @attr name com.etkilit:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5421,11 +5423,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionOverflowButtonStyle
+     * @attr name com.etkilit:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5433,11 +5435,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionOverflowMenuStyle
+     * @attr name com.etkilit:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5445,11 +5447,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:activityChooserViewStyle
+     * @attr name com.etkilit:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5457,21 +5459,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:alertDialogButtonGroupStyle
+     * @attr name com.etkilit:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:alertDialogCenterButtons
+     * @attr name com.etkilit:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5479,11 +5481,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:alertDialogStyle
+     * @attr name com.etkilit:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5491,11 +5493,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:alertDialogTheme
+     * @attr name com.etkilit:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5503,11 +5505,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:autoCompleteTextViewStyle
+     * @attr name com.etkilit:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5515,11 +5517,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:borderlessButtonStyle
+     * @attr name com.etkilit:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5527,11 +5529,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonBarButtonStyle
+     * @attr name com.etkilit:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5539,11 +5541,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonBarNegativeButtonStyle
+     * @attr name com.etkilit:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5551,11 +5553,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonBarNeutralButtonStyle
+     * @attr name com.etkilit:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5563,11 +5565,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonBarPositiveButtonStyle
+     * @attr name com.etkilit:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5575,11 +5577,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonBarStyle
+     * @attr name com.etkilit:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5587,11 +5589,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonStyle
+     * @attr name com.etkilit:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5599,11 +5601,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonStyleSmall
+     * @attr name com.etkilit:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5611,11 +5613,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:checkboxStyle
+     * @attr name com.etkilit:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5623,77 +5625,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:checkedTextViewStyle
+     * @attr name com.etkilit:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorAccent
+     * @attr name com.etkilit:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorBackgroundFloating
+     * @attr name com.etkilit:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorButtonNormal
+     * @attr name com.etkilit:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorControlActivated
+     * @attr name com.etkilit:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorControlHighlight
+     * @attr name com.etkilit:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorControlNormal
+     * @attr name com.etkilit:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5704,44 +5706,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorError
+     * @attr name com.etkilit:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorPrimary
+     * @attr name com.etkilit:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorPrimaryDark
+     * @attr name com.etkilit:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:colorSwitchThumbNormal
+     * @attr name com.etkilit:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5749,11 +5751,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:controlBackground
+     * @attr name com.etkilit:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5762,11 +5764,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:dialogPreferredPadding
+     * @attr name com.etkilit:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5774,11 +5776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:dialogTheme
+     * @attr name com.etkilit:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5786,11 +5788,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:dividerHorizontal
+     * @attr name com.etkilit:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5798,11 +5800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:dividerVertical
+     * @attr name com.etkilit:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5810,11 +5812,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:dropDownListViewStyle
+     * @attr name com.etkilit:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5823,11 +5825,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:dropdownListPreferredItemHeight
+     * @attr name com.etkilit:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5835,11 +5837,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:editTextBackground
+     * @attr name com.etkilit:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5850,11 +5852,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:editTextColor
+     * @attr name com.etkilit:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5862,11 +5864,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:editTextStyle
+     * @attr name com.etkilit:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5874,11 +5876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:homeAsUpIndicator
+     * @attr name com.etkilit:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5886,11 +5888,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:imageButtonStyle
+     * @attr name com.etkilit:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5898,11 +5900,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listChoiceBackgroundIndicator
+     * @attr name com.etkilit:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5910,11 +5912,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listDividerAlertDialog
+     * @attr name com.etkilit:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5922,11 +5924,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listMenuViewStyle
+     * @attr name com.etkilit:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5934,11 +5936,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPopupWindowStyle
+     * @attr name com.etkilit:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5947,11 +5949,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPreferredItemHeight
+     * @attr name com.etkilit:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5960,11 +5962,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPreferredItemHeightLarge
+     * @attr name com.etkilit:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5973,11 +5975,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPreferredItemHeightSmall
+     * @attr name com.etkilit:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5986,11 +5988,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPreferredItemPaddingLeft
+     * @attr name com.etkilit:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5999,11 +6001,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:listPreferredItemPaddingRight
+     * @attr name com.etkilit:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6011,11 +6013,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:panelBackground
+     * @attr name com.etkilit:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6023,11 +6025,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:panelMenuListTheme
+     * @attr name com.etkilit:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6036,11 +6038,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:panelMenuListWidth
+     * @attr name com.etkilit:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6048,11 +6050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:popupMenuStyle
+     * @attr name com.etkilit:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6060,11 +6062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:popupWindowStyle
+     * @attr name com.etkilit:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6072,11 +6074,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:radioButtonStyle
+     * @attr name com.etkilit:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6084,11 +6086,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:ratingBarStyle
+     * @attr name com.etkilit:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6096,11 +6098,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:ratingBarStyleIndicator
+     * @attr name com.etkilit:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6108,11 +6110,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:ratingBarStyleSmall
+     * @attr name com.etkilit:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6120,11 +6122,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:searchViewStyle
+     * @attr name com.etkilit:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6132,11 +6134,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:seekBarStyle
+     * @attr name com.etkilit:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6144,11 +6146,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:selectableItemBackground
+     * @attr name com.etkilit:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6156,11 +6158,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:selectableItemBackgroundBorderless
+     * @attr name com.etkilit:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6168,11 +6170,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:spinnerDropDownItemStyle
+     * @attr name com.etkilit:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6180,11 +6182,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:spinnerStyle
+     * @attr name com.etkilit:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6192,11 +6194,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:switchStyle
+     * @attr name com.etkilit:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6204,11 +6206,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceLargePopupMenu
+     * @attr name com.etkilit:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6216,11 +6218,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceListItem
+     * @attr name com.etkilit:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6228,11 +6230,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceListItemSecondary
+     * @attr name com.etkilit:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6240,11 +6242,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceListItemSmall
+     * @attr name com.etkilit:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6252,11 +6254,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearancePopupMenuHeader
+     * @attr name com.etkilit:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6264,11 +6266,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceSearchResultSubtitle
+     * @attr name com.etkilit:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6276,11 +6278,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceSearchResultTitle
+     * @attr name com.etkilit:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6288,11 +6290,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAppearanceSmallPopupMenu
+     * @attr name com.etkilit:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6303,11 +6305,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textColorAlertDialogListItem
+     * @attr name com.etkilit:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6318,11 +6320,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textColorSearchUrl
+     * @attr name com.etkilit:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6330,11 +6332,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:toolbarNavigationButtonStyle
+     * @attr name com.etkilit:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6342,11 +6344,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:toolbarStyle
+     * @attr name com.etkilit:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6357,11 +6359,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:tooltipForegroundColor
+     * @attr name com.etkilit:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6369,51 +6371,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:tooltipFrameBackground
+     * @attr name com.etkilit:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:viewInflaterClass
+     * @attr name com.etkilit:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowActionBar
+     * @attr name com.etkilit:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowActionBarOverlay
+     * @attr name com.etkilit:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowActionModeOverlay
+     * @attr name com.etkilit:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6426,11 +6428,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowFixedHeightMajor
+     * @attr name com.etkilit:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6443,11 +6445,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowFixedHeightMinor
+     * @attr name com.etkilit:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6460,11 +6462,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowFixedWidthMajor
+     * @attr name com.etkilit:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6477,11 +6479,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowFixedWidthMinor
+     * @attr name com.etkilit:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6494,11 +6496,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowMinWidthMajor
+     * @attr name com.etkilit:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6511,17 +6513,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowMinWidthMinor
+     * @attr name com.etkilit:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:windowNoTitle
+     * @attr name com.etkilit:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -6531,7 +6533,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.etkilit.android.androidsocketclient:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.etkilit:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -6539,13 +6541,13 @@ public final class R {
       0x7f020026
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:allowStacking
+     * @attr name com.etkilit:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -6557,7 +6559,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.etkilit.android.androidsocketclient:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.etkilit:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -6587,12 +6589,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:alpha
+     * @attr name com.etkilit:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -6603,8 +6605,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.etkilit.android.androidsocketclient:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.etkilit.android.androidsocketclient:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.etkilit:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.etkilit:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -6626,18 +6628,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonTint
+     * @attr name com.etkilit:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6654,7 +6656,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonTintMode
+     * @attr name com.etkilit:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -6669,61 +6671,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.etkilit.android.androidsocketclient:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.etkilit.android.androidsocketclient:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.etkilit.android.androidsocketclient:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.etkilit.android.androidsocketclient:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.etkilit.android.androidsocketclient:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.etkilit.android.androidsocketclient:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.etkilit.android.androidsocketclient:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.etkilit.android.androidsocketclient:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.etkilit.android.androidsocketclient:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.etkilit.android.androidsocketclient:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.etkilit.android.androidsocketclient:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.etkilit.android.androidsocketclient:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.etkilit.android.androidsocketclient:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.etkilit.android.androidsocketclient:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.etkilit.android.androidsocketclient:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.etkilit.android.androidsocketclient:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.etkilit.android.androidsocketclient:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.etkilit.android.androidsocketclient:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.etkilit.android.androidsocketclient:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.etkilit.android.androidsocketclient:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.etkilit.android.androidsocketclient:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.etkilit.android.androidsocketclient:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.etkilit.android.androidsocketclient:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.etkilit.android.androidsocketclient:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.etkilit.android.androidsocketclient:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.etkilit.android.androidsocketclient:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.etkilit.android.androidsocketclient:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.etkilit.android.androidsocketclient:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.etkilit.android.androidsocketclient:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.etkilit.android.androidsocketclient:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.etkilit.android.androidsocketclient:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.etkilit.android.androidsocketclient:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.etkilit.android.androidsocketclient:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.etkilit.android.androidsocketclient:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.etkilit.android.androidsocketclient:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.etkilit.android.androidsocketclient:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.etkilit.android.androidsocketclient:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.etkilit.android.androidsocketclient:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.etkilit.android.androidsocketclient:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.etkilit.android.androidsocketclient:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.etkilit.android.androidsocketclient:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.etkilit.android.androidsocketclient:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.etkilit.android.androidsocketclient:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.etkilit.android.androidsocketclient:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.etkilit.android.androidsocketclient:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.etkilit.android.androidsocketclient:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.etkilit.android.androidsocketclient:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.etkilit.android.androidsocketclient:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.etkilit.android.androidsocketclient:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.etkilit.android.androidsocketclient:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.etkilit.android.androidsocketclient:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.etkilit.android.androidsocketclient:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.etkilit.android.androidsocketclient:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.etkilit.android.androidsocketclient:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.etkilit.android.androidsocketclient:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.etkilit:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.etkilit:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.etkilit:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.etkilit:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.etkilit:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.etkilit:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.etkilit:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.etkilit:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.etkilit:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.etkilit:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.etkilit:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.etkilit:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.etkilit:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.etkilit:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.etkilit:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.etkilit:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.etkilit:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.etkilit:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.etkilit:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.etkilit:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.etkilit:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.etkilit:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.etkilit:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.etkilit:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.etkilit:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.etkilit:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.etkilit:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.etkilit:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.etkilit:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.etkilit:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.etkilit:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.etkilit:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.etkilit:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.etkilit:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.etkilit:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.etkilit:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.etkilit:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.etkilit:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.etkilit:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.etkilit:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.etkilit:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.etkilit:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.etkilit:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.etkilit:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.etkilit:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.etkilit:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.etkilit:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.etkilit:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.etkilit:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.etkilit:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.etkilit:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.etkilit:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.etkilit:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.etkilit:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.etkilit:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -6873,17 +6875,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:barrierAllowsGoneWidgets
+     * @attr name com.etkilit:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6900,21 +6902,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:barrierDirection
+     * @attr name com.etkilit:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:chainUseRtl
+     * @attr name com.etkilit:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6922,50 +6924,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:constraintSet
+     * @attr name com.etkilit:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:constraint_referenced_ids
+     * @attr name com.etkilit:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constrainedHeight
+     * @attr name com.etkilit:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constrainedWidth
+     * @attr name com.etkilit:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBaseline_creator
+     * @attr name com.etkilit:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6981,20 +6983,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBaseline_toBaselineOf
+     * @attr name com.etkilit:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_creator
+     * @attr name com.etkilit:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7010,11 +7012,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_toBottomOf
+     * @attr name com.etkilit:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7030,11 +7032,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_toTopOf
+     * @attr name com.etkilit:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7042,20 +7044,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircle
+     * @attr name com.etkilit:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircleAngle
+     * @attr name com.etkilit:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7064,21 +7066,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircleRadius
+     * @attr name com.etkilit:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintDimensionRatio
+     * @attr name com.etkilit:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7094,11 +7096,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintEnd_toEndOf
+     * @attr name com.etkilit:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7114,11 +7116,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintEnd_toStartOf
+     * @attr name com.etkilit:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7127,11 +7129,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_begin
+     * @attr name com.etkilit:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7140,20 +7142,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_end
+     * @attr name com.etkilit:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_percent
+     * @attr name com.etkilit:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7167,11 +7169,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_default
+     * @attr name com.etkilit:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7188,11 +7190,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_max
+     * @attr name com.etkilit:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7209,29 +7211,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_min
+     * @attr name com.etkilit:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_percent
+     * @attr name com.etkilit:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_bias
+     * @attr name com.etkilit:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7245,29 +7247,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_chainStyle
+     * @attr name com.etkilit:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_weight
+     * @attr name com.etkilit:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_creator
+     * @attr name com.etkilit:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7283,11 +7285,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_toLeftOf
+     * @attr name com.etkilit:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7303,20 +7305,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_toRightOf
+     * @attr name com.etkilit:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_creator
+     * @attr name com.etkilit:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7332,11 +7334,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_toLeftOf
+     * @attr name com.etkilit:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7352,11 +7354,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_toRightOf
+     * @attr name com.etkilit:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7372,11 +7374,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintStart_toEndOf
+     * @attr name com.etkilit:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7392,20 +7394,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintStart_toStartOf
+     * @attr name com.etkilit:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_creator
+     * @attr name com.etkilit:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7421,11 +7423,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_toBottomOf
+     * @attr name com.etkilit:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7441,20 +7443,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_toTopOf
+     * @attr name com.etkilit:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_bias
+     * @attr name com.etkilit:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7468,20 +7470,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_chainStyle
+     * @attr name com.etkilit:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_weight
+     * @attr name com.etkilit:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7495,11 +7497,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_default
+     * @attr name com.etkilit:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7516,11 +7518,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_max
+     * @attr name com.etkilit:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7537,20 +7539,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_min
+     * @attr name com.etkilit:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_percent
+     * @attr name com.etkilit:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7559,11 +7561,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_editor_absoluteX
+     * @attr name com.etkilit:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7572,11 +7574,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_editor_absoluteY
+     * @attr name com.etkilit:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7585,11 +7587,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginBottom
+     * @attr name com.etkilit:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7598,11 +7600,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginEnd
+     * @attr name com.etkilit:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7611,11 +7613,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginLeft
+     * @attr name com.etkilit:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7624,11 +7626,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginRight
+     * @attr name com.etkilit:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7637,11 +7639,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginStart
+     * @attr name com.etkilit:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7650,11 +7652,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginTop
+     * @attr name com.etkilit:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7666,12 +7668,13 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
-     * <tr><td>standard</td><td>3</td><td></td></tr>
+     * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_optimizationLevel
+     * @attr name com.etkilit:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -7681,8 +7684,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.etkilit.android.androidsocketclient:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.etkilit.android.androidsocketclient:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.etkilit:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.etkilit:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -7691,7 +7694,7 @@ public final class R {
       0x7f02005b, 0x7f020076
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7699,11 +7702,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:content
+     * @attr name com.etkilit:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7716,7 +7719,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:emptyVisibility
+     * @attr name com.etkilit:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -7735,6 +7738,10 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginTop android:layout_marginTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginRight android:layout_marginRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginBottom android:layout_marginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxWidth android:maxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_maxHeight android:maxHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minWidth android:minWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_alpha android:alpha}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotX android:transformPivotX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_transformPivotY android:transformPivotY}</code></td><td></td></tr>
@@ -7749,55 +7756,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.etkilit.android.androidsocketclient:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.etkilit.android.androidsocketclient:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.etkilit.android.androidsocketclient:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.etkilit.android.androidsocketclient:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.etkilit.android.androidsocketclient:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.etkilit.android.androidsocketclient:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.etkilit.android.androidsocketclient:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.etkilit.android.androidsocketclient:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.etkilit.android.androidsocketclient:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.etkilit.android.androidsocketclient:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.etkilit.android.androidsocketclient:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.etkilit.android.androidsocketclient:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.etkilit.android.androidsocketclient:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.etkilit.android.androidsocketclient:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.etkilit.android.androidsocketclient:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.etkilit.android.androidsocketclient:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.etkilit.android.androidsocketclient:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.etkilit.android.androidsocketclient:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.etkilit.android.androidsocketclient:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.etkilit.android.androidsocketclient:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.etkilit.android.androidsocketclient:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.etkilit.android.androidsocketclient:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.etkilit.android.androidsocketclient:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.etkilit.android.androidsocketclient:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.etkilit.android.androidsocketclient:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.etkilit.android.androidsocketclient:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.etkilit.android.androidsocketclient:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.etkilit.android.androidsocketclient:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.etkilit.android.androidsocketclient:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.etkilit.android.androidsocketclient:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.etkilit.android.androidsocketclient:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.etkilit.android.androidsocketclient:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.etkilit.android.androidsocketclient:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.etkilit.android.androidsocketclient:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.etkilit.android.androidsocketclient:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.etkilit.android.androidsocketclient:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.etkilit.android.androidsocketclient:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.etkilit.android.androidsocketclient:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.etkilit.android.androidsocketclient:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.etkilit.android.androidsocketclient:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.etkilit.android.androidsocketclient:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.etkilit.android.androidsocketclient:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.etkilit.android.androidsocketclient:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.etkilit.android.androidsocketclient:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.etkilit.android.androidsocketclient:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.etkilit.android.androidsocketclient:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.etkilit.android.androidsocketclient:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.etkilit.android.androidsocketclient:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.etkilit.android.androidsocketclient:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.etkilit:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.etkilit:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.etkilit:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.etkilit:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.etkilit:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.etkilit:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.etkilit:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.etkilit:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.etkilit:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.etkilit:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.etkilit:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.etkilit:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.etkilit:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.etkilit:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.etkilit:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.etkilit:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.etkilit:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.etkilit:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.etkilit:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.etkilit:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.etkilit:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.etkilit:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.etkilit:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.etkilit:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.etkilit:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.etkilit:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.etkilit:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.etkilit:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.etkilit:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.etkilit:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.etkilit:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.etkilit:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.etkilit:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.etkilit:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.etkilit:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.etkilit:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.etkilit:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.etkilit:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.etkilit:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.etkilit:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.etkilit:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.etkilit:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.etkilit:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.etkilit:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.etkilit:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.etkilit:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.etkilit:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.etkilit:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.etkilit:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.etkilit:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.etkilit:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.etkilit:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.etkilit:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -7808,6 +7819,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginTop
      * @see #ConstraintSet_android_layout_marginRight
      * @see #ConstraintSet_android_layout_marginBottom
+     * @see #ConstraintSet_android_maxWidth
+     * @see #ConstraintSet_android_maxHeight
+     * @see #ConstraintSet_android_minWidth
+     * @see #ConstraintSet_android_minHeight
      * @see #ConstraintSet_android_alpha
      * @see #ConstraintSet_android_transformPivotX
      * @see #ConstraintSet_android_transformPivotY
@@ -7822,6 +7837,10 @@ public final class R {
      * @see #ConstraintSet_android_layout_marginEnd
      * @see #ConstraintSet_android_translationZ
      * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_barrierAllowsGoneWidgets
+     * @see #ConstraintSet_barrierDirection
+     * @see #ConstraintSet_chainUseRtl
+     * @see #ConstraintSet_constraint_referenced_ids
      * @see #ConstraintSet_layout_constrainedHeight
      * @see #ConstraintSet_layout_constrainedWidth
      * @see #ConstraintSet_layout_constraintBaseline_creator
@@ -7875,10 +7894,12 @@ public final class R {
     public static final int[] ConstraintSet={
       0x010100c4, 0x010100d0, 0x010100dc, 0x010100f4, 
       0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
-      0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
+      0x010100fa, 0x0101011f, 0x01010120, 0x0101013f, 
+      0x01010140, 0x0101031f, 0x01010320, 0x01010321, 
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
-      0x010103b6, 0x010103fa, 0x01010440, 0x7f020096, 
+      0x010103b6, 0x010103fa, 0x01010440, 0x7f020037, 
+      0x7f020038, 0x7f020046, 0x7f02005a, 0x7f020096, 
       0x7f020097, 0x7f020098, 0x7f020099, 0x7f02009a, 
       0x7f02009b, 0x7f02009c, 0x7f02009d, 0x7f02009e, 
       0x7f02009f, 0x7f0200a0, 0x7f0200a1, 0x7f0200a2, 
@@ -8038,6 +8059,58 @@ public final class R {
      */
     public static final int ConstraintSet_android_layout_marginBottom=8;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxWidth
+     */
+    public static final int ConstraintSet_android_maxWidth=9;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#maxHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:maxHeight
+     */
+    public static final int ConstraintSet_android_maxHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minWidth
+     */
+    public static final int ConstraintSet_android_minWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name android:minHeight
+     */
+    public static final int ConstraintSet_android_minHeight=12;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -8045,7 +8118,7 @@ public final class R {
      *
      * @attr name android:alpha
      */
-    public static final int ConstraintSet_android_alpha=9;
+    public static final int ConstraintSet_android_alpha=13;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8058,7 +8131,7 @@ public final class R {
      *
      * @attr name android:transformPivotX
      */
-    public static final int ConstraintSet_android_transformPivotX=10;
+    public static final int ConstraintSet_android_transformPivotX=14;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#transformPivotY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8071,7 +8144,7 @@ public final class R {
      *
      * @attr name android:transformPivotY
      */
-    public static final int ConstraintSet_android_transformPivotY=11;
+    public static final int ConstraintSet_android_transformPivotY=15;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8084,7 +8157,7 @@ public final class R {
      *
      * @attr name android:translationX
      */
-    public static final int ConstraintSet_android_translationX=12;
+    public static final int ConstraintSet_android_translationX=16;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8097,7 +8170,7 @@ public final class R {
      *
      * @attr name android:translationY
      */
-    public static final int ConstraintSet_android_translationY=13;
+    public static final int ConstraintSet_android_translationY=17;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8106,7 +8179,7 @@ public final class R {
      *
      * @attr name android:scaleX
      */
-    public static final int ConstraintSet_android_scaleX=14;
+    public static final int ConstraintSet_android_scaleX=18;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scaleY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8115,7 +8188,7 @@ public final class R {
      *
      * @attr name android:scaleY
      */
-    public static final int ConstraintSet_android_scaleY=15;
+    public static final int ConstraintSet_android_scaleY=19;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8124,7 +8197,7 @@ public final class R {
      *
      * @attr name android:rotation
      */
-    public static final int ConstraintSet_android_rotation=16;
+    public static final int ConstraintSet_android_rotation=20;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8133,7 +8206,7 @@ public final class R {
      *
      * @attr name android:rotationX
      */
-    public static final int ConstraintSet_android_rotationX=17;
+    public static final int ConstraintSet_android_rotationX=21;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8142,7 +8215,7 @@ public final class R {
      *
      * @attr name android:rotationY
      */
-    public static final int ConstraintSet_android_rotationY=18;
+    public static final int ConstraintSet_android_rotationY=22;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8155,7 +8228,7 @@ public final class R {
      *
      * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginStart=19;
+    public static final int ConstraintSet_android_layout_marginStart=23;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8168,7 +8241,7 @@ public final class R {
      *
      * @attr name android:layout_marginEnd
      */
-    public static final int ConstraintSet_android_layout_marginEnd=20;
+    public static final int ConstraintSet_android_layout_marginEnd=24;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8181,7 +8254,7 @@ public final class R {
      *
      * @attr name android:translationZ
      */
-    public static final int ConstraintSet_android_translationZ=21;
+    public static final int ConstraintSet_android_translationZ=25;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -8194,151 +8267,89 @@ public final class R {
      *
      * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_elevation=22;
+    public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constrainedHeight
+     * @attr name com.etkilit:barrierAllowsGoneWidgets
      */
-    public static final int ConstraintSet_layout_constrainedHeight=23;
+    public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#barrierDirection}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.etkilit:barrierDirection
+     */
+    public static final int ConstraintSet_barrierDirection=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constrainedWidth
+     * @attr name com.etkilit:chainUseRtl
      */
-    public static final int ConstraintSet_layout_constrainedWidth=24;
+    public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBaseline_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=25;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBaseline_toBaselineOf
-     */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_creator}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_creator
-     */
-    public static final int ConstraintSet_layout_constraintBottom_creator=27;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintBottom_toTopOf}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintBottom_toTopOf
-     */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircle
-     */
-    public static final int ConstraintSet_layout_constraintCircle=30;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircleAngle}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircleAngle
-     */
-    public static final int ConstraintSet_layout_constraintCircleAngle=31;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintCircleRadius}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintCircleRadius
-     */
-    public static final int ConstraintSet_layout_constraintCircleRadius=32;
-    /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintDimensionRatio
+     * @attr name com.etkilit:constraint_referenced_ids
      */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=33;
+    public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.etkilit:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.etkilit:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.etkilit:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintSet_layout_constraintBaseline_creator=33;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8354,11 +8365,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintEnd_toEndOf
+     * @attr name com.etkilit:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.etkilit:layout_constraintBottom_creator
+     */
+    public static final int ConstraintSet_layout_constraintBottom_creator=35;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8374,11 +8394,52 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintEnd_toStartOf
+     * @attr name com.etkilit:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.etkilit:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.etkilit:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=38;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.etkilit:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=39;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8387,11 +8448,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_begin
+     * @attr name com.etkilit:layout_constraintCircleRadius
      */
-    public static final int ConstraintSet_layout_constraintGuide_begin=36;
+    public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.etkilit:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintSet_layout_constraintDimensionRatio=41;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.etkilit:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.etkilit:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8400,20 +8511,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_end
+     * @attr name com.etkilit:layout_constraintGuide_begin
      */
-    public static final int ConstraintSet_layout_constraintGuide_end=37;
+    public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.etkilit:layout_constraintGuide_end
+     */
+    public static final int ConstraintSet_layout_constraintGuide_end=45;
+    /**
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintGuide_percent
+     * @attr name com.etkilit:layout_constraintGuide_percent
      */
-    public static final int ConstraintSet_layout_constraintGuide_percent=38;
+    public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8427,11 +8551,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_default
+     * @attr name com.etkilit:layout_constraintHeight_default
      */
-    public static final int ConstraintSet_layout_constraintHeight_default=39;
+    public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8448,11 +8572,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_max
+     * @attr name com.etkilit:layout_constraintHeight_max
      */
-    public static final int ConstraintSet_layout_constraintHeight_max=40;
+    public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8469,29 +8593,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_min
+     * @attr name com.etkilit:layout_constraintHeight_min
      */
-    public static final int ConstraintSet_layout_constraintHeight_min=41;
+    public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHeight_percent
+     * @attr name com.etkilit:layout_constraintHeight_percent
      */
-    public static final int ConstraintSet_layout_constraintHeight_percent=42;
+    public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_bias
+     * @attr name com.etkilit:layout_constraintHorizontal_bias
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8505,29 +8629,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_chainStyle
+     * @attr name com.etkilit:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintHorizontal_weight
+     * @attr name com.etkilit:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_creator
+     * @attr name com.etkilit:layout_constraintLeft_creator
      */
-    public static final int ConstraintSet_layout_constraintLeft_creator=46;
+    public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8543,11 +8667,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_toLeftOf
+     * @attr name com.etkilit:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8563,20 +8687,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintLeft_toRightOf
+     * @attr name com.etkilit:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_creator
+     * @attr name com.etkilit:layout_constraintRight_creator
      */
-    public static final int ConstraintSet_layout_constraintRight_creator=49;
+    public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8592,11 +8716,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_toLeftOf
+     * @attr name com.etkilit:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8612,11 +8736,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintRight_toRightOf
+     * @attr name com.etkilit:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8632,11 +8756,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintStart_toEndOf
+     * @attr name com.etkilit:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8652,20 +8776,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintStart_toStartOf
+     * @attr name com.etkilit:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_creator
+     * @attr name com.etkilit:layout_constraintTop_creator
      */
-    public static final int ConstraintSet_layout_constraintTop_creator=54;
+    public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8681,11 +8805,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_toBottomOf
+     * @attr name com.etkilit:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8701,20 +8825,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintTop_toTopOf
+     * @attr name com.etkilit:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_bias
+     * @attr name com.etkilit:layout_constraintVertical_bias
      */
-    public static final int ConstraintSet_layout_constraintVertical_bias=57;
+    public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8728,20 +8852,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_chainStyle
+     * @attr name com.etkilit:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintVertical_weight
+     * @attr name com.etkilit:layout_constraintVertical_weight
      */
-    public static final int ConstraintSet_layout_constraintVertical_weight=59;
+    public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8755,11 +8879,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_default
+     * @attr name com.etkilit:layout_constraintWidth_default
      */
-    public static final int ConstraintSet_layout_constraintWidth_default=60;
+    public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8776,11 +8900,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_max
+     * @attr name com.etkilit:layout_constraintWidth_max
      */
-    public static final int ConstraintSet_layout_constraintWidth_max=61;
+    public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8797,20 +8921,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_min
+     * @attr name com.etkilit:layout_constraintWidth_min
      */
-    public static final int ConstraintSet_layout_constraintWidth_min=62;
+    public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_constraintWidth_percent
+     * @attr name com.etkilit:layout_constraintWidth_percent
      */
-    public static final int ConstraintSet_layout_constraintWidth_percent=63;
+    public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8819,11 +8943,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_editor_absoluteX
+     * @attr name com.etkilit:layout_editor_absoluteX
      */
-    public static final int ConstraintSet_layout_editor_absoluteX=64;
+    public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8832,11 +8956,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_editor_absoluteY
+     * @attr name com.etkilit:layout_editor_absoluteY
      */
-    public static final int ConstraintSet_layout_editor_absoluteY=65;
+    public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8845,11 +8969,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginBottom
+     * @attr name com.etkilit:layout_goneMarginBottom
      */
-    public static final int ConstraintSet_layout_goneMarginBottom=66;
+    public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8858,11 +8982,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginEnd
+     * @attr name com.etkilit:layout_goneMarginEnd
      */
-    public static final int ConstraintSet_layout_goneMarginEnd=67;
+    public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8871,11 +8995,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginLeft
+     * @attr name com.etkilit:layout_goneMarginLeft
      */
-    public static final int ConstraintSet_layout_goneMarginLeft=68;
+    public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8884,11 +9008,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginRight
+     * @attr name com.etkilit:layout_goneMarginRight
      */
-    public static final int ConstraintSet_layout_goneMarginRight=69;
+    public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8897,11 +9021,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginStart
+     * @attr name com.etkilit:layout_goneMarginStart
      */
-    public static final int ConstraintSet_layout_goneMarginStart=70;
+    public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8910,9 +9034,9 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_goneMarginTop
+     * @attr name com.etkilit:layout_goneMarginTop
      */
-    public static final int ConstraintSet_layout_goneMarginTop=71;
+    public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
@@ -8920,8 +9044,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.etkilit.android.androidsocketclient:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.etkilit.android.androidsocketclient:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.etkilit:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.etkilit:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -8930,7 +9054,7 @@ public final class R {
       0x7f020091, 0x7f020104
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8938,11 +9062,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:keylines
+     * @attr name com.etkilit:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8953,7 +9077,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:statusBarBackground
+     * @attr name com.etkilit:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -8964,12 +9088,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.etkilit.android.androidsocketclient:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.etkilit.android.androidsocketclient:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.etkilit.android.androidsocketclient:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.etkilit.android.androidsocketclient:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.etkilit.android.androidsocketclient:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.etkilit.android.androidsocketclient:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.etkilit:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.etkilit:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.etkilit:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.etkilit:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.etkilit:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.etkilit:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -9013,7 +9137,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9021,11 +9145,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_anchor
+     * @attr name com.etkilit:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9050,21 +9174,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_anchorGravity
+     * @attr name com.etkilit:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_behavior
+     * @attr name com.etkilit:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9083,11 +9207,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_dodgeInsetEdges
+     * @attr name com.etkilit:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9105,16 +9229,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_insetEdge
+     * @attr name com.etkilit:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout_keyline
+     * @attr name com.etkilit:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -9124,14 +9248,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.etkilit.android.androidsocketclient:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.etkilit.android.androidsocketclient:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.etkilit.android.androidsocketclient:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.etkilit.android.androidsocketclient:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.etkilit.android.androidsocketclient:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.etkilit.android.androidsocketclient:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.etkilit.android.androidsocketclient:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.etkilit.android.androidsocketclient:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.etkilit:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.etkilit:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.etkilit:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.etkilit:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.etkilit:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.etkilit:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.etkilit:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.etkilit:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -9147,7 +9271,7 @@ public final class R {
       0x7f02006e, 0x7f020082, 0x7f0200fe, 0x7f02011c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9156,11 +9280,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:arrowHeadLength
+     * @attr name com.etkilit:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9169,11 +9293,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:arrowShaftLength
+     * @attr name com.etkilit:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9182,22 +9306,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:barLength
+     * @attr name com.etkilit:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:color
+     * @attr name com.etkilit:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9206,11 +9330,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:drawableSize
+     * @attr name com.etkilit:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9219,21 +9343,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:gapBetweenBars
+     * @attr name com.etkilit:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:spinBars
+     * @attr name com.etkilit:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9242,7 +9366,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:thickness
+     * @attr name com.etkilit:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -9252,12 +9376,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.etkilit.android.androidsocketclient:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.etkilit.android.androidsocketclient:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.etkilit.android.androidsocketclient:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.etkilit.android.androidsocketclient:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.etkilit.android.androidsocketclient:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.etkilit.android.androidsocketclient:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.etkilit:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.etkilit:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.etkilit:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.etkilit:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.etkilit:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.etkilit:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -9271,17 +9395,17 @@ public final class R {
       0x7f02007e, 0x7f02007f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderAuthority
+     * @attr name com.etkilit:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9289,11 +9413,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderCerts
+     * @attr name com.etkilit:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9306,11 +9430,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderFetchStrategy
+     * @attr name com.etkilit:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9323,27 +9447,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderFetchTimeout
+     * @attr name com.etkilit:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderPackage
+     * @attr name com.etkilit:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontProviderQuery
+     * @attr name com.etkilit:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -9356,9 +9480,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.etkilit.android.androidsocketclient:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.etkilit.android.androidsocketclient:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.etkilit.android.androidsocketclient:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.etkilit:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.etkilit:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.etkilit:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -9410,7 +9534,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9418,11 +9542,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:font
+     * @attr name com.etkilit:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9435,16 +9559,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontStyle
+     * @attr name com.etkilit:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontWeight
+     * @attr name com.etkilit:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -9490,10 +9614,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.etkilit.android.androidsocketclient:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.etkilit.android.androidsocketclient:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.etkilit.android.androidsocketclient:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.etkilit.android.androidsocketclient:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.etkilit:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.etkilit:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.etkilit:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.etkilit:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -9585,7 +9709,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9593,11 +9717,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:divider
+     * @attr name com.etkilit:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9606,21 +9730,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:dividerPadding
+     * @attr name com.etkilit:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:measureWithLargestChild
+     * @attr name com.etkilit:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9635,7 +9759,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:showDividers
+     * @attr name com.etkilit:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -9907,16 +10031,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.etkilit.android.androidsocketclient:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.etkilit.android.androidsocketclient:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.etkilit.android.androidsocketclient:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.etkilit.android.androidsocketclient:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.etkilit.android.androidsocketclient:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.etkilit.android.androidsocketclient:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.etkilit.android.androidsocketclient:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.etkilit.android.androidsocketclient:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.etkilit.android.androidsocketclient:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.etkilit.android.androidsocketclient:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.etkilit:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.etkilit:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.etkilit:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.etkilit:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.etkilit:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.etkilit:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.etkilit:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.etkilit:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.etkilit:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.etkilit:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -10093,7 +10217,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10101,31 +10225,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionLayout
+     * @attr name com.etkilit:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionProviderClass
+     * @attr name com.etkilit:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:actionViewClass
+     * @attr name com.etkilit:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10142,32 +10266,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:alphabeticModifiers
+     * @attr name com.etkilit:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentDescription
+     * @attr name com.etkilit:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:iconTint
+     * @attr name com.etkilit:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10184,11 +10308,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:iconTintMode
+     * @attr name com.etkilit:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10205,11 +10329,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:numericModifiers
+     * @attr name com.etkilit:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10225,17 +10349,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:showAsAction
+     * @attr name com.etkilit:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:tooltipText
+     * @attr name com.etkilit:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -10252,8 +10376,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.etkilit.android.androidsocketclient:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.etkilit.android.androidsocketclient:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.etkilit:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.etkilit:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -10358,17 +10482,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:preserveIconSpacing
+     * @attr name com.etkilit:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10376,7 +10500,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:subMenuArrow
+     * @attr name com.etkilit:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -10388,7 +10512,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.etkilit.android.androidsocketclient:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.etkilit:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -10425,13 +10549,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:overlapAnchor
+     * @attr name com.etkilit:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -10441,7 +10565,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.etkilit.android.androidsocketclient:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.etkilit:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -10449,13 +10573,13 @@ public final class R {
       0x7f020103
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:state_above_anchor
+     * @attr name com.etkilit:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -10465,8 +10589,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.etkilit.android.androidsocketclient:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.etkilit.android.androidsocketclient:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.etkilit:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.etkilit:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -10475,7 +10599,7 @@ public final class R {
       0x7f0200e0, 0x7f0200e3
     };
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10484,11 +10608,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:paddingBottomNoButtons
+     * @attr name com.etkilit:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10497,7 +10621,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:paddingTopNoTitle
+     * @attr name com.etkilit:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -10511,19 +10635,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.etkilit.android.androidsocketclient:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.etkilit.android.androidsocketclient:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.etkilit.android.androidsocketclient:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.etkilit.android.androidsocketclient:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.etkilit.android.androidsocketclient:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.etkilit.android.androidsocketclient:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.etkilit.android.androidsocketclient:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.etkilit.android.androidsocketclient:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.etkilit.android.androidsocketclient:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.etkilit.android.androidsocketclient:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.etkilit.android.androidsocketclient:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.etkilit.android.androidsocketclient:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.etkilit.android.androidsocketclient:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.etkilit:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.etkilit:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.etkilit:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.etkilit:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.etkilit:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.etkilit:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.etkilit:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.etkilit:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.etkilit:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.etkilit:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.etkilit:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.etkilit:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.etkilit:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -10661,7 +10785,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10669,11 +10793,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:closeIcon
+     * @attr name com.etkilit:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10681,21 +10805,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:commitIcon
+     * @attr name com.etkilit:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:defaultQueryHint
+     * @attr name com.etkilit:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10703,21 +10827,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:goIcon
+     * @attr name com.etkilit:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:iconifiedByDefault
+     * @attr name com.etkilit:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10725,11 +10849,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:layout
+     * @attr name com.etkilit:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10737,21 +10861,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:queryBackground
+     * @attr name com.etkilit:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:queryHint
+     * @attr name com.etkilit:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10759,11 +10883,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:searchHintIcon
+     * @attr name com.etkilit:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10771,11 +10895,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:searchIcon
+     * @attr name com.etkilit:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10783,11 +10907,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:submitBackground
+     * @attr name com.etkilit:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10795,11 +10919,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:suggestionRowLayout
+     * @attr name com.etkilit:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10807,7 +10931,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:voiceIcon
+     * @attr name com.etkilit:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -10821,7 +10945,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.etkilit.android.androidsocketclient:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.etkilit:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -10896,7 +11020,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10904,7 +11028,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:popupTheme
+     * @attr name com.etkilit:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -10917,17 +11041,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.etkilit.android.androidsocketclient:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.etkilit.android.androidsocketclient:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.etkilit.android.androidsocketclient:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.etkilit.android.androidsocketclient:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.etkilit.android.androidsocketclient:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.etkilit.android.androidsocketclient:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.etkilit.android.androidsocketclient:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.etkilit.android.androidsocketclient:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.etkilit.android.androidsocketclient:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.etkilit.android.androidsocketclient:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.etkilit.android.androidsocketclient:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.etkilit:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.etkilit:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.etkilit:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.etkilit:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.etkilit:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.etkilit:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.etkilit:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.etkilit:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.etkilit:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.etkilit:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.etkilit:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -10983,27 +11107,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:showText
+     * @attr name com.etkilit:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:splitTrack
+     * @attr name com.etkilit:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11012,11 +11136,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:switchMinWidth
+     * @attr name com.etkilit:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11025,11 +11149,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:switchPadding
+     * @attr name com.etkilit:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11037,11 +11161,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:switchTextAppearance
+     * @attr name com.etkilit:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11050,22 +11174,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:thumbTextPadding
+     * @attr name com.etkilit:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:thumbTint
+     * @attr name com.etkilit:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11082,11 +11206,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:thumbTintMode
+     * @attr name com.etkilit:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11094,22 +11218,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:track
+     * @attr name com.etkilit:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:trackTint
+     * @attr name com.etkilit:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11126,7 +11250,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:trackTintMode
+     * @attr name com.etkilit:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -11147,8 +11271,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.etkilit.android.androidsocketclient:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.etkilit.android.androidsocketclient:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.etkilit:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.etkilit:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -11314,17 +11438,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:fontFamily
+     * @attr name com.etkilit:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11334,7 +11458,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:textAllCaps
+     * @attr name com.etkilit:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -11346,33 +11470,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.etkilit.android.androidsocketclient:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.etkilit.android.androidsocketclient:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.etkilit.android.androidsocketclient:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.etkilit.android.androidsocketclient:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.etkilit.android.androidsocketclient:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.etkilit.android.androidsocketclient:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.etkilit.android.androidsocketclient:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.etkilit.android.androidsocketclient:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.etkilit.android.androidsocketclient:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.etkilit.android.androidsocketclient:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.etkilit.android.androidsocketclient:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.etkilit.android.androidsocketclient:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.etkilit.android.androidsocketclient:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.etkilit.android.androidsocketclient:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.etkilit.android.androidsocketclient:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.etkilit.android.androidsocketclient:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.etkilit.android.androidsocketclient:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.etkilit.android.androidsocketclient:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.etkilit.android.androidsocketclient:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.etkilit.android.androidsocketclient:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.etkilit.android.androidsocketclient:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.etkilit.android.androidsocketclient:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.etkilit.android.androidsocketclient:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.etkilit.android.androidsocketclient:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.etkilit.android.androidsocketclient:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.etkilit.android.androidsocketclient:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.etkilit.android.androidsocketclient:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.etkilit:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.etkilit:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.etkilit:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.etkilit:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.etkilit:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.etkilit:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.etkilit:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.etkilit:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.etkilit:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.etkilit:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.etkilit:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.etkilit:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.etkilit:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.etkilit:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.etkilit:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.etkilit:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.etkilit:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.etkilit:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.etkilit:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.etkilit:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.etkilit:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.etkilit:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.etkilit:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.etkilit:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.etkilit:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.etkilit:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.etkilit:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -11457,7 +11581,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11470,21 +11594,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:buttonGravity
+     * @attr name com.etkilit:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:collapseContentDescription
+     * @attr name com.etkilit:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11492,11 +11616,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:collapseIcon
+     * @attr name com.etkilit:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11505,11 +11629,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetEnd
+     * @attr name com.etkilit:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11518,11 +11642,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetEndWithActions
+     * @attr name com.etkilit:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11531,11 +11655,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetLeft
+     * @attr name com.etkilit:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11544,11 +11668,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetRight
+     * @attr name com.etkilit:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11557,11 +11681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetStart
+     * @attr name com.etkilit:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11570,11 +11694,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:contentInsetStartWithNavigation
+     * @attr name com.etkilit:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11582,21 +11706,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:logo
+     * @attr name com.etkilit:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:logoDescription
+     * @attr name com.etkilit:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11605,21 +11729,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:maxButtonHeight
+     * @attr name com.etkilit:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:navigationContentDescription
+     * @attr name com.etkilit:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11627,11 +11751,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:navigationIcon
+     * @attr name com.etkilit:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11639,21 +11763,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:popupTheme
+     * @attr name com.etkilit:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitle
+     * @attr name com.etkilit:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11661,32 +11785,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitleTextAppearance
+     * @attr name com.etkilit:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:subtitleTextColor
+     * @attr name com.etkilit:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.etkilit.android.androidsocketclient:title
+     * @attr name com.etkilit:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11695,11 +11819,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMargin
+     * @attr name com.etkilit:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11708,11 +11832,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMarginBottom
+     * @attr name com.etkilit:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11721,11 +11845,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMarginEnd
+     * @attr name com.etkilit:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11734,11 +11858,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMarginStart
+     * @attr name com.etkilit:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11747,11 +11871,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMarginTop
+     * @attr name com.etkilit:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11760,11 +11884,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleMargins
+     * @attr name com.etkilit:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11772,18 +11896,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleTextAppearance
+     * @attr name com.etkilit:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:titleTextColor
+     * @attr name com.etkilit:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -11795,9 +11919,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.etkilit.android.androidsocketclient:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.etkilit.android.androidsocketclient:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.etkilit.android.androidsocketclient:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.etkilit:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.etkilit:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.etkilit:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -11840,7 +11964,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11849,11 +11973,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:paddingEnd
+     * @attr name com.etkilit:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11862,11 +11986,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.etkilit.android.androidsocketclient:paddingStart
+     * @attr name com.etkilit:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11874,7 +11998,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:theme
+     * @attr name com.etkilit:theme
      */
     public static final int View_theme=4;
     /**
@@ -11885,8 +12009,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.etkilit.android.androidsocketclient:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.etkilit.android.androidsocketclient:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.etkilit:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.etkilit:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -11911,18 +12035,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.etkilit.android.androidsocketclient:backgroundTint
+     * @attr name com.etkilit:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.etkilit.android.androidsocketclient.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.etkilit.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11939,7 +12063,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.etkilit.android.androidsocketclient:backgroundTintMode
+     * @attr name com.etkilit:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

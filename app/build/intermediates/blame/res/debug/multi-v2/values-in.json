@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Zekeriya\\AndroidStudioProjects\\EtKilit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "C:\\Users\\Zekeriya\\source\\repos\\EtKilit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Zekeriya\\.gradle\\caches\\transforms-2\\files-2.1\\34555d386a7eb9ea3045ff1382069509\\appcompat-v7-27.1.1\\res\\values-in\\values-in.xml",

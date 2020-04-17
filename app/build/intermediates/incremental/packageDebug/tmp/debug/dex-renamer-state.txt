@@ -1,4 +1,4 @@
-#Thu Apr 16 03:25:55 EET 2020
-base.0=C\:\\Users\\Zekeriya\\AndroidStudioProjects\\EtKilit\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Fri Apr 17 12:09:23 EET 2020
+base.0=C\:\\Users\\Zekeriya\\source\\repos\\EtKilit\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

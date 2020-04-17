@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Zekeriya\\AndroidStudioProjects\\EtKilit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "C:\\Users\\Zekeriya\\source\\repos\\EtKilit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Zekeriya\\AndroidStudioProjects\\EtKilit\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "C:\\Users\\Zekeriya\\source\\repos\\EtKilit\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
