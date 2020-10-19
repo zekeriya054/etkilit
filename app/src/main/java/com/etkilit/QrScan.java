@@ -111,6 +111,7 @@ public class QrScan extends Activity implements OnClickListener {
             ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.READ_PHONE_STATE},225);
             return;
         }
+/*
         if(IP.length()==0) {
             SharedPreferences settings= PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
             //SharedPreferences settings = getPreferences(MODE_PRIVATE);
@@ -140,19 +141,11 @@ public class QrScan extends Activity implements OnClickListener {
                 Toast.makeText(QrScan.this, "Lisans süreniz dolmuş..", Toast.LENGTH_SHORT).show();
                 Intent lisans=new Intent(this,LisansActivity.class);
                 startActivity(lisans);
-                /*
-                Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    public void run() {
-                        // Actions to do after 10 seconds
-                    }
-                }, 3000);
-                System.exit(0);*/
 
             }
         }
 
-
+*/
     }
 
     @Override
